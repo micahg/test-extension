@@ -1,14 +1,14 @@
   {
-    "title": "Sample Extension",
-    "name": "sample-extension",
+    "title": "Test Extension",
+    "name": "test-extension",
     "version": "1.0.0",
     "author": "auth0",
-    "description": "This is a sample extension",
+    "description": "This is a test extension",
     "type": "application",
-    "repository": "https://github.com/auth0/sample-extension",
+    "repository": "https://github.com/adamauth/test-extension",
     "keywords": [
       "auth0",
       "extension"
     ],
-    "codeUrl": "https://raw.githubusercontent.com/auth0/sample-extension/master/index.js"
+    "codeUrl": "https://raw.githubusercontent.com/adamauth/test-extension/master/index.js"
   }
