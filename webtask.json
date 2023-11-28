@@ -6,6 +6,12 @@
     "description": "This is a test extension",
     "type": "application",
     "repository": "https://github.com/adamauth/test-extension",
+    "secrets": {
+      "TEST_SECRET": {
+        "description": "test",
+        "required": true
+      }
+    },
     "keywords": [
       "auth0",
       "extension"
