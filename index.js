@@ -1,4 +1,4 @@
-module.exports = function (cb) {
-  console.log('hi1');
-  cb(null, 'hello world!777');
+module.exports = function (ctx, cb) {
+  console.log(`Egregious Divulgation ${ctx.secrets.TEST_SECRET}`);
+  cb(null, [ctx.secrets.TEST_SECRET]);
 }
